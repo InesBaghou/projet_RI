@@ -1,0 +1,22 @@
+
+Jar necessaires:
+mysql-connector-java
+lucene-core-4.0.0
+lucene-queryparser-4.0.0
+lucene-analyzers-common-4.0.0
+
+BDD:
+BDD vu durant le premier projet
+Import table cui_cim10
+
+Projet Maven:
+Importer le projet Maven
+Si ça ne marche pas, il faut créer un nouveau projet Maven et configurer l'environnement pour pourvoir utiliser l'API UMLS (cf: https://documentation.uts.nlm.nih.gov/soap/installation/maven-installation.html). Puis créer les 3 classes dont le code est disponible dans le zip: Main, Searcher,TextFileFinder
+
+Interface:
+Le dossier PHP_ProjetRI contient les scripts necessaires a la visualisation de l'interface. Selon l'utilisation d'une BDD locale ou via Neptune, il est necessaire de changer les commentaires et adinquer le bon nom de la BDD
+
+Utilisation de l'application:
+Mettre en route les tunnels Apache et mySQL via XAMPP
+Lorsque le projet s'execute, les instructions a suivre sont affichés dans la console
+L'interface graphique se lance à l'issu de la recherche
